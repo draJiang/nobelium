@@ -1,6 +1,6 @@
 const BLOG = {
   title: '江子龙的博客',
-  author: '江子龙',
+  author: 'jiangzilong',
   email: 'jzlong666@gmail.com',
   link: 'https://nobelium.vercel.app',
   description: '我失去了表达，在光天化日之下',
