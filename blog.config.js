@@ -1,8 +1,8 @@
 const BLOG = {
-  title: '江子龙的博客',
+  title: '落阳深处的布鲁斯',
   author: 'jiangzilong',
   email: 'jzlong666@gmail.com',
-  link: 'https://nobelium.vercel.app',
+  link: 'https://jiangzilong.vercel.app/',
   description: '我失去了表达，在光天化日之下',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -17,7 +17,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://weibo.com/u/3911987103',
   seo: {
     keywords: ['UX','Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
