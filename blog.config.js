@@ -20,7 +20,7 @@ const BLOG = {
   socialLink: 'https://weibo.com/u/3911987103',
   seo: {
     keywords: ['UX','Blog', 'Website', 'Notion'],
-    googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
+    googleSiteVerification: 'google-site-verification=hPDnxD-Cy6lpUrPf-ewKgvVFd0UkR1nDtRpMT-hhmBA' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
