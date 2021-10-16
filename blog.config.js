@@ -1,16 +1,16 @@
 const BLOG = {
-  title: '落阳深处的布鲁斯',
+  title: '江子龙的博客 - 用户体验，工具，效率，摇滚乐',
   author: 'jiangzilong',
   email: 'jzlong666@gmail.com',
-  link: 'https://jiangzilong.vercel.app/',
-  description: '我失去了表达，在光天化日之下',
+  link: 'blog.dabing.one',
+  description: '交互设计师，热爱消费类电子产品和摇滚乐。我会在这里记录设计、工具效率以及音乐相关的想法。',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: '', // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
   showAbout: true,
@@ -19,7 +19,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://weibo.com/u/3911987103',
   seo: {
-    keywords: ['UX','Blog', 'Website', 'Notion'],
+    keywords: ['UX','Music','Blog', 'Website', 'Notion'],
     googleSiteVerification: 'hPDnxD-Cy6lpUrPf-ewKgvVFd0UkR1nDtRpMT-hhmBA' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
