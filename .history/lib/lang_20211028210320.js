@@ -74,8 +74,7 @@ const lang = {
       INDEX: 'ブログ',
       RSS: '購読',
       SEARCH: '検索',
-      ABOUT: 'このサイトについて',
-      PROJECT: 'プロジェクト'
+      ABOUT: 'このサイトについて'
     },
     PAGINATION: {
       PREV: '前ページ',
@@ -91,8 +90,7 @@ const lang = {
       INDEX: 'Blog',
       RSS: 'RSS',
       SEARCH: 'Buscar',
-      ABOUT: 'Acerca de mí',
-      PROJECT:'proyecto:'
+      ABOUT: 'Acerca de mí'
     },
     PAGINATION: {
       PREV: 'Anterior',

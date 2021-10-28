@@ -7,7 +7,7 @@ const lang = {
       RSS: 'RSS',
       SEARCH: 'Search',
       ABOUT: 'About',
-      PROJECT:'Project'
+      PROJECT:'Project:'
     },
     PAGINATION: {
       PREV: 'Prev',
@@ -40,8 +40,7 @@ const lang = {
       INDEX: '網誌',
       RSS: '訂閱',
       SEARCH: '搜尋',
-      ABOUT: '關於',
-      PROJECT:'項目'
+      ABOUT: '關於'
     },
     PAGINATION: {
       PREV: '上一頁',
@@ -57,8 +56,7 @@ const lang = {
       INDEX: '部落格',
       RSS: '訂閱',
       SEARCH: '搜尋',
-      ABOUT: '關於',
-      PROJECT:'項目'
+      ABOUT: '關於'
     },
     PAGINATION: {
       PREV: '上一頁',
@@ -74,8 +72,7 @@ const lang = {
       INDEX: 'ブログ',
       RSS: '購読',
       SEARCH: '検索',
-      ABOUT: 'このサイトについて',
-      PROJECT: 'プロジェクト'
+      ABOUT: 'このサイトについて'
     },
     PAGINATION: {
       PREV: '前ページ',
@@ -91,8 +88,7 @@ const lang = {
       INDEX: 'Blog',
       RSS: 'RSS',
       SEARCH: 'Buscar',
-      ABOUT: 'Acerca de mí',
-      PROJECT:'proyecto:'
+      ABOUT: 'Acerca de mí'
     },
     PAGINATION: {
       PREV: 'Anterior',

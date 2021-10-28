@@ -91,8 +91,7 @@ const lang = {
       INDEX: 'Blog',
       RSS: 'RSS',
       SEARCH: 'Buscar',
-      ABOUT: 'Acerca de mí',
-      PROJECT:'proyecto:'
+      ABOUT: 'Acerca de mí'
     },
     PAGINATION: {
       PREV: 'Anterior',
