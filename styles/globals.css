@@ -99,6 +99,10 @@ nav {
   flex-wrap: wrap;
   line-height: 1.5em;
 }
+.blog_icon{
+  width:24px;
+  height:24px;
+}
 
 .article-tags::-webkit-scrollbar {
   width: 0 !important;
