@@ -103,6 +103,9 @@ nav {
   width:24px;
   height:24px;
 }
+.blog_icon img{
+  border-radius: 100%; 
+}
 
 .article-tags::-webkit-scrollbar {
   width: 0 !important;
