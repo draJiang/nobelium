@@ -68,7 +68,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                <div width="24" height="24">
+                <div className="blog_icon">
                   <img src='/apple-touch-icon.png'></img>
                 </div>
               </div>
