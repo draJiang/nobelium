@@ -37,7 +37,7 @@ const blog = ({ postsToShow, page, showNext }) => {
           <a target='_blank' rel='noopener noreferrer' href='https://www.figma.com/community/plugin/983963947283925005/Table-of-contents'>
             <img alt='Table-of-contents' src='https://img.shields.io/badge/dynamic/json?color=dd5327&label=Table%20of%20contents&logoColor=ffffff&logo=figma&query=%24.meta.plugin.install_count&url=https%3A%2F%2Fwww.figma.com%2Fapi%2Fplugins%2F983963947283925005%2Fversions%3Forg_id%3D' ></img>
           </a>
-          <a target='_blank' rel='noopener noreferrer' src='https://www.figma.com/community/plugin/961125519572930689/Markdown'>
+          <a target='_blank' rel='noopener noreferrer' href='https://www.figma.com/community/plugin/961125519572930689/Markdown'>
             <img alt='Markdown' src='https://img.shields.io/badge/dynamic/json?color=313131&label=Markdown&logoColor=ffffff&logo=figma&query=%24.meta.plugin.install_count&url=https%3A%2F%2Fwww.figma.com%2Fapi%2Fplugins%2F961125519572930689%2Fversions%3Forg_id%3D' ></img>
           </a>
         </div>
