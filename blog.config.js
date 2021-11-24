@@ -2,7 +2,7 @@ const BLOG = {
         title: '江子龙的博客 - 用户体验，工具，效率，摇滚乐',
         author: 'jiangzilong',
         email: 'jzlong666@gmail.com',
-        link: 'https://blog.dabing.one/',
+        link: 'https://blog.dabing.one',
         description: '交互设计师，热爱消费类电子产品和摇滚乐。我会在这里记录设计、工具效率以及音乐相关的想法。',
         lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
         appearance: 'auto', // ['light', 'dark', 'auto'],
