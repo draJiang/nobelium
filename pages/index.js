@@ -21,7 +21,6 @@ export async function getStaticProps () {
 
 const blog = ({ postsToShow, page, showNext }) => {
   return (
-    
     <Container title={BLOG.title} description={BLOG.description}>
 
       {postsToShow.map(post => (
@@ -29,7 +28,6 @@ const blog = ({ postsToShow, page, showNext }) => {
       ))}
 
       {showNext && <Pagination page={page} showNext={showNext} />}
-
     </Container>
   )
 }
