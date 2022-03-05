@@ -221,8 +221,12 @@ nav {
     }
 }
 
+.pose_title{
+    font-size:1.2rem;
+}
+
 .post_summary,.post_time {
-    font-size:14px;
+    font-size:0.9rem;
     
     display: -webkit-box;
     overflow: hidden;
@@ -249,9 +253,7 @@ nav {
     line-height: 1.8rem;
 }
 
-.pose_title{
-    font-size:16px;
-}
+
 nav {
     margin-bottom:2rem;
   }
