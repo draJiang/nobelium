@@ -4,11 +4,10 @@ import formatDate from '@/lib/formatDate'
 
 const BlogPost = ({ post }) => {
   
-  let tags = post.tags.map(item =>
-    <span className=' flex-shrink-0 text-gray-500 dark:text-gray-400'>  ·  {item}</span>
+  const tags = post.tags.map(item =>
+    <span key={item.id} className=' flex-shrink-0 text-gray-500 dark:text-gray-400'>  ·  {item}</span>
   )
 
-  console.log(tags);
   return (
     <Link href={`${BLOG.path}/${post.slug}`}>
       <a>
