@@ -92,6 +92,7 @@ pre[class*='language-'] {
   width:100%;
   margin:20px 10px 0 0;
 }
-nav {
-  margin-bottom:2rem;
+.notion-callout {
+  margin:10px 0;
 }
+

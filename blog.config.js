@@ -1,9 +1,9 @@
 const BLOG = {
-        title: '江子龙的博客 - 用户体验，工具，效率，摇滚乐',
+        title: '江子龙的博客',
         author: 'jiangzilong',
         email: 'jzlong666@gmail.com',
         link: 'https://blog.dabing.one',
-        description: '交互设计师，热爱消费类电子产品和摇滚乐。我会在这里记录设计、工具效率以及音乐相关的想法。',
+        description: '用户体验，工具，效率，摇滚乐',
         lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
         appearance: 'auto', // ['light', 'dark', 'auto'],
         font: 'sans-serif', // ['sans-serif', 'serif']
@@ -24,7 +24,7 @@ const BLOG = {
         },
         notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
 
-        // notionPageId: 'b31a79d4977143a6aa9c4c9ceca31eac', // DO NOT CHANGE THIS！！！
+        notionPageId: 'b31a79d4977143a6aa9c4c9ceca31eac', // DO NOT CHANGE THIS！！！
 
         notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
         analytics: {
