@@ -23,6 +23,9 @@ const BLOG = {
             googleSiteVerification: 'hPDnxD-Cy6lpUrPf-ewKgvVFd0UkR1nDtRpMT-hhmBA' // Remove the value or replace it with your own google site verification code
         },
         notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
+
+        // notionPageId: 'b31a79d4977143a6aa9c4c9ceca31eac', // DO NOT CHANGE THIS！！！
+
         notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
         analytics: {
             provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.

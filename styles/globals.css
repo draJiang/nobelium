@@ -133,13 +133,20 @@ nav {
 .hello .badgeList{
     display:flex;
     flex-wrap:wrap;
-    /* margin-bottom:10px; */
+    margin-bottom:20px;
+}
+
+.hello .badgeList a{
+    /* height:20px;
+    width:auto; */
+    margin:0px 10px 10px 0px;
 }
 
 .hello .badgeList img{
     /* height:20px;
     width:auto; */
-    margin:0px 10px 10px 0px;
+    margin:0px 4px 4px 0px;
+
 }
 
 .article-tags::-webkit-scrollbar {
