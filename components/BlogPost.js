@@ -3,9 +3,17 @@ import BLOG from '@/blog.config'
 import formatDate from '@/lib/formatDate'
 
 const BlogPost = ({ post }) => {
-  const tags = post.tags.map(item =>
-    <span key={item.id} className=' flex-shrink-0 text-gray-500 dark:text-gray-400'>  ·  {item}</span>
-  )
+  // console.log('post:');
+  // console.log(post);
+
+  let tags = ''
+  // 如果有 tags 信息
+  if(post.tags!=undefined){
+    tags = post.tags.map(item =>
+      <span key={item.id} className=' flex-shrink-0 text-gray-500 dark:text-gray-400'>  ·  {item}</span>
+    )
+  }
+  
 
   return (
     <Link href={`${BLOG.path}/${post.slug}`}>
