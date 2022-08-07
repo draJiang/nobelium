@@ -12,7 +12,7 @@ const BLOG = {
         path: '', // leave this empty unless you want to deploy Nobelium in a folder
         since: '', // If leave this empty, current year will be used.
         postsPerPage: 20,
-        sortByDate: false,
+        sortByDate: true,
         showAbout: true,
         showArchive: true,
         autoCollapsedNavBar: false, // The automatically collapsed navigation bar
@@ -22,8 +22,8 @@ const BLOG = {
             keywords: ['UX', 'Music', 'Blog', 'Website', 'Notion'],
             googleSiteVerification: 'hPDnxD-Cy6lpUrPf-ewKgvVFd0UkR1nDtRpMT-hhmBA' // Remove the value or replace it with your own google site verification code
         },
-        notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
-        // notionPageId: 'b31a79d4977143a6aa9c4c9ceca31eac',
+        // notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
+        notionPageId: 'b31a79d4977143a6aa9c4c9ceca31eac',
 
         notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
         analytics: {
