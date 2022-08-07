@@ -88,6 +88,10 @@ pre[class*='language-'] {
 .notion-hr {
  border-top: 1px solid #E5E5E5; 
 }
+.notion-hr:dark{
+    border-top: 1px solid var(--notion-brown_background_co);
+}
+
 .notion-table-of-contents {
   width:100%;
   margin:20px 10px 0 0;
@@ -95,4 +99,6 @@ pre[class*='language-'] {
 .notion-callout {
   margin:10px 0;
 }
-
+.notion-list {
+  width:100%;
+}

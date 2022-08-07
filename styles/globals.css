@@ -179,6 +179,25 @@ nav {
     .notion-brown_background{
         background-color:rgba(74, 50, 40, 1);
     }
+    .notion-link{
+        border-color: var(--bg-color);
+    }
+    .notion-link:hover{
+        border-color: var(--bg-color);
+    }
+    
+    .notion-table-header{
+        color:var(--bg-color);
+        opacity: 0.6;
+    }
+    .notion-collection-column-title-icon{
+        fill:var(--bg-color);
+        opacity: 0.6;
+    }
+
+    .notion-hr{
+        border-top: 1px solid var(--notion-brown_background_co) !important;
+    }
 } 
 
 .post {
@@ -213,6 +232,12 @@ nav {
     -ms-user-select: none;
     -khtml-user-select: none;
     user-select: none;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag-container li {
+    margin-bottom:0.75rem;
 }
 
 @media (min-width: 768px) {
