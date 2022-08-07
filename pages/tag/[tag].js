@@ -9,7 +9,6 @@ export async function getStaticProps ({ params }) {
   const currentTag = params.tag
   const posts = await getAllPosts({ includePages: false })
   const tags = getAllTagsFromPosts(posts)
-  console.log(tags);
   const filteredPosts = posts.filter(
     post => post && post.tags && post.tags.includes(currentTag)
   )
